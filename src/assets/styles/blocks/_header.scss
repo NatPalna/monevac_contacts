@@ -1,0 +1,79 @@
+.header_nav {
+  @include flex-space-between(0);
+  padding: 15px 0;
+}
+
+.nav_part,
+.info_part {
+  @include flex-space-between(59);
+
+  @media screen and (max-width: 768px) {
+    gap: 48px;
+  }
+}
+
+.nav_list {
+  @include flex-space-between(46);
+
+  font-weight: 400;
+  font-size: 15px;
+  color: #262633;
+
+  @media screen and (max-width: 768px) {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav_item:last-child {
+    display: none;
+  }
+}
+
+.logo {
+  width: 106px;
+  height: 64px;
+  background: url("/src/assets/pictures/logo.png") no-repeat center / contain;
+
+  @media screen and (max-width: 768px) {
+    width: 90px;
+    height: 30px;
+    background: url("/src/assets/pictures/logo_tablet.png") no-repeat center /
+      contain;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 67px;
+    height: 40px;
+    background: url("/src/assets/pictures/logo.png") no-repeat center / contain;
+  }
+}
+
+.header_service {
+  @include flex-space-between(23);
+}
+
+.header_phone {
+  margin-bottom: 6px;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.header_email {
+  font-family: "Graphik LC Web";
+  font-size: 13px;
+  line-height: 15.6px;
+  font-weight: 400;
+  color: #797986;
+}
+
+.btn {
+  @include button(19, 27, 0);
+
+  background-color: #bf2738;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}

@@ -1,0 +1,72 @@
+@mixin flex-space-between($gap) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: #{$gap}px;
+}
+
+@mixin flex-center($gap) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: #{$gap}px;
+}
+
+@mixin button($pad_vert, $pad_hor, $border) {
+  padding: #{$pad_vert}px #{$pad_hor}px;
+  border: #{$border}px solid;
+  border-radius: 14px;
+  font-family: "RoadRadio";
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@mixin h2 {
+  font-family: var(--font-title);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+@mixin red-light-text($size) {
+  font-weight: 400;
+  font-size: #{$size}px;
+  line-height: 140%;
+  color: var(--color-accent);
+}
+
+@mixin form-input {
+  padding: 17px 20px 11px;
+  width: 100%;
+  min-height: 64px;
+  border: 2px solid var(--color-bg);
+  border-radius: 14px;
+  background-color: var(--color-bg) !important;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-text-main);
+  box-sizing: border-box;
+
+  &::placeholder {
+    font-family: var(--font-text-main);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-text-add);
+  }
+}
+
+@mixin input_focus-visible {
+  outline: none;
+  border: 2px solid #e6e6e6;
+  border-radius: 14px;
+  background-color: white !important;
+}
+
+@mixin text_s {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}

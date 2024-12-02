@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/assets/styles/main.css" />
+    <title>Document</title>
+  <script defer src="main.948bd8112bfe3f8d8748.js"></script></head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header_nav">
+          <div class="nav_part">
+            <div class="burger">
+              <img src="../src/assets/pictures/menu.svg" alt="Меню" />
+            </div>
+            <ul class="nav_list">
+              <li class="nav_item">
+                <a href="#" class="nav_link">Упаковка</a>
+              </li>
+              <li class="nav_item">
+                <a href="#" class="nav_link">Оборудование</a>
+              </li>
+              <li class="nav_item">
+                <a href="#" class="nav_link">Сервис и запчасти</a>
+              </li>
+            </ul>
+          </div>
+          <div class="logo"></div>
+          <div class="info_part">
+            <div class="header_service">
+              <img
+                src="../src/assets/pictures/comparison.svg"
+                alt="Сравнение"
+              />
+              <img src="../src/assets/pictures/search.svg" alt="Поиск" />
+            </div>
+            <div class="header_contacts">
+              <p class="header_phone">+7 (499) 136-17-18</p>
+              <p class="header_email">info@monevac.ru</p>
+            </div>
+            <button class="btn btn-primary">Оставить заявку</button>
+          </div>
+        </nav>
+        <div></div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <nav class="hero__nav">
+          <ul class="hero__nav_list">
+            <li class="hero__nav_item">
+              <a href="#" class="hero__nav_link">Главная</a>
+            </li>
+            <li>&#xb7;</li>
+            <li class="hero__nav_item">
+              <a href="#" class="hero__nav_link disabled">Контакты</a>
+            </li>
+          </ul>
+          <h1 class="hero__title">контакты</h1>
+        </nav>
+
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__contacts">
+              <div class="hero__phone">8 (903) 467 98 51</div>
+              <div class="hero__email">info@monevac.ru</div>
+              <div class="hero__nomination">
+                <p>
+                  Полное наименование: Общество с ограниченной ответственностью
+                  «МОНЕВАК»
+                </p>
+                <p>Сокращенное наименование: ООО «МОНЕВАК»</p>
+              </div>
+              <div class="hero__requisite">
+                <div class="requisite__inner">
+                  <p>ИНН: 3448050610</p>
+                  <p>КПП: 344801001</p>
+                  <p>ОКПО: 67354285</p>
+                  <p>ОКАТО: 18401000000</p>
+                  <p>ОГРН: 1103461002480</p>
+                  <p>Код по ОКВЭД: 51.70</p>
+                </div>
+                <div class="requisite__inner">
+                  <p>
+                    Банк: Филиала «Ростовский» ОАО «Альфа-Банк» г Ростов на Дону
+                  </p>
+                  <p>БИК: 046015207</p>
+                  <p>к/с: 30101810500000000207</p>
+                  <p>р/с: 40702810926090000003</p>
+                </div>
+                <div class="requisite__inner">
+                  <p>
+                    Юридический адрес: 400080, Волгоградская обл. г. Волгоград
+                    ул. Командира Рудь,14А, офис 13
+                  </p>
+                  <p>
+                    Почтовый адрес: 400080, Волгоградская обл. г. Волгоград ул.
+                    Командира Рудь, 14А, офис 13
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="hero__form">
+              <h2 class="hero__form_title">оставить заявку</h2>
+              <form class="form" name="form" novalidate>
+                <div class="form__field-container">
+                  <label class="form__field">
+                    <input
+                      type="text"
+                      id="input__name"
+                      class="form__type-input"
+                      placeholder=" "
+                      aria-describedby="name-error"
+                      required
+                    /><span class="form__label">Ваше имя</span>
+                  </label>
+                  <span
+                    class="form__error input__name-error"
+                    id="name-error"
+                    aria-live="polite"
+                  ></span>
+                </div>
+                <div class="form__field-container">
+                  <label class="form__field"
+                    ><input
+                      type="text"
+                      id="input__phone"
+                      class="form__type-input phone_mask"
+                      placeholder=" "
+                      aria-describedby="phone-error"
+                      required
+                    /><span class="form__label">Ваш телефон</span></label
+                  >
+                  <span
+                    class="form__error input__phone-error"
+                    aria-live="polite"
+                  ></span>
+                </div>
+                <div class="form__field-container">
+                  <label class="form__field">
+                    <textarea
+                      class="textarea form__type-input"
+                      id="input__message"
+                      placeholder=" "
+                      aria-describedby="message-error"
+                    ></textarea>
+                    <span class="form__label">Ваше сообщение</span>
+                  </label>
+                  <span
+                    class="form__error input__message-error"
+                    aria-live="polite"
+                  ></span>
+                </div>
+                <div class="form__field-container">
+                  <label class="form__checkbox-label">
+                    <input
+                      type="checkbox"
+                      class="form__type-checkbox custom-checkbox"
+                      checked
+                      id="input__checkbox"
+                      aria-describedby="checkbox-error"
+                      required
+                    />
+                    <span class="form__type-checkbox-title">
+                      Я подтверждаю свое согласие с политикой в отношении
+                      <a href="" class="agreement_link"
+                        >обработки персональных данных</a
+                      >
+                    </span>
+                  </label>
+                  <span
+                    class="form__error input__checkbox-error"
+                    id="checkbox-error"
+                    aria-live="polite"
+                  ></span>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-form"
+                  aria-describedby="empty-error"
+                >
+                  задать вопрос
+                </button>
+                <span
+                  class="form__empty-error"
+                  id="empty-error"
+                  aria-live="assertive"
+                >
+                </span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="map"></section>
+      <section class="cities">
+        <div class="container">
+          <div class="city_list">
+            <div class="city_item">
+              <div class="main_info">
+                <h3 class="city_name">МОСКВА</h3>
+                <div class="city_phones">
+                  <p class="city_phone">+7 (499) 136-17-18</p>
+                  <p class="city_phone">+7 (903) 467-98-51</p>
+                </div>
+                <div class="city_address">
+                  115114, ул. Дербеневская, д. 1, стр. 1, подъезд 44, офис 6
+                  (станция метро "Павелецкая")
+                </div>
+                <button class="city_button">Проложить маршрут</button>
+              </div>
+              <div class="city_mode">Режим работы: c 10:00 до 18:00</div>
+            </div>
+            <div class="city_item">
+              <div class="main_info">
+                <h3 class="city_name">Волгоград</h3>
+                <div class="city_phones">
+                  <p class="city_phone">+7 (8442) 65-08-88</p>
+                  <p class="city_phone">+7 (8442) 65-08-80</p>
+                </div>
+                <div class="city_address">400080, ул. Командира Рудь, 14А</div>
+                <button class="city_button">Проложить маршрут</button>
+              </div>
+              <div class="city_mode">Режим работы: c 08:00 до 17:00</div>
+            </div>
+            <div class="city_item">
+              <div class="main_info">
+                <h3 class="city_name">КРАСНОДАР</h3>
+                <div class="city_phones">
+                  <p class="city_phone">+7 (861) 292-71-88</p>
+                  <p class="city_phone">+7 (903) 467-98-51</p>
+                </div>
+                <div class="city_address">
+                  350015, ул. Митрофана Седина, 176
+                </div>
+                <button class="city_button">Проложить маршрут</button>
+              </div>
+              <div class="city_mode">Режим работы: c 08:00 до 17:00</div>
+            </div>
+            <div class="city_item">
+              <div class="main_info">
+                <h3 class="city_name">Саратов</h3>
+                <div class="city_phones">
+                  <p class="city_phone">+7 (927) 626-00-50</p>
+                  <p class="city_phone">+7 (903) 467-98-51</p>
+                </div>
+                <div class="city_address">410080, пр-т Строителей, 1</div>
+                <button class="city_button">Проложить маршрут</button>
+              </div>
+              <div class="city_mode">Режим работы: c 10:00 до 18:00</div>
+            </div>
+            <div class="city_item">
+              <div class="main_info">
+                <h3 class="city_name">воронеж</h3>
+                <div class="city_phones">
+                  <p class="city_phone">+7 (473) 229-63-78</p>
+                  <p class="city_phone">+7 (903) 467-98-51</p>
+                </div>
+                <div class="city_address">394030, ул. Комиссаржевской, 10</div>
+                <button class="city_button">Проложить маршрут</button>
+              </div>
+              <div class="city_mode">Режим работы: c 10:00 до 18:00</div>
+            </div>
+            <div class="city_item">
+              <div class="main_info">
+                <h3 class="city_name">ЕРЕВАН</h3>
+                <div class="city_phones">
+                  <p class="city_phone">+374 91 21 90 69</p>
+                  <p class="city_phone">+374 60 50 90 69</p>
+                </div>
+                <div class="city_address">Район Аван 4, дом 2</div>
+                <button class="city_button">Проложить маршрут</button>
+              </div>
+              <div class="city_mode">Режим работы: c 10:00 до 18:00</div>
+            </div>
+            <div class="city_item">
+              <div class="main_info">
+                <h3 class="city_name">НОВОСИБИРСК</h3>
+                <div class="city_phones">
+                  <p class="city_phone">
+                    +7 (383) 20-62-461; +7 (383) 20-62-711; +7 (903) 467-98-51
+                  </p>
+                  <p class="city_phone">
+                    Факс: +7 (383) 20-62-209; +7 (383) 20-62-210
+                  </p>
+                </div>
+                <div class="city_address">630039, ул. Никитина 116, к.3</div>
+                <button class="city_button">Проложить маршрут</button>
+              </div>
+              <div class="city_mode">Режим работы: c 10:00 до 18:00</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer_top">
+          <div class="footer_top_left">
+            <ul class="goods_list">
+              <li class="goods_item">
+                <a href="" class="goods_link">Упаковочное оборудование</a>
+              </li>
+              <li class="goods_item">
+                <a href="" class="goods_link">Пленки</a>
+              </li>
+              <li class="goods_item">
+                <a href="" class="goods_link">Пакеты</a>
+              </li>
+              <li class="goods_item">
+                <a href="" class="goods_link">Прочие материалы</a>
+              </li>
+            </ul>
+            <ul class="footer_nav-list">
+              <li class="footer_nav-item">
+                <a href="" class="footer_nav-link">О Компании</a>
+              </li>
+              <li class="footer_nav-item">
+                <a href="" class="footer_nav-link">Партнеры</a>
+              </li>
+              <li class="footer_nav-item">
+                <a href="" class="footer_nav-link">Доставка</a>
+              </li>
+              <li class="footer_nav-item">
+                <a href="" class="footer_nav-link">Оплата</a>
+              </li>
+              <li class="footer_nav-item">
+                <a href="" class="footer_nav-link">Обмен и возврат</a>
+              </li>
+              <li class="footer_nav-item">
+                <a href="" class="footer_nav-link">Контакты</a>
+              </li>
+              <li class="footer_nav-item">
+                <a href="" class="footer_nav-link">Распродажа</a>
+              </li>
+              <li class="footer_nav-item">
+                <a href="" class="footer_nav-link">Сервис</a>
+              </li>
+              <li class="footer_nav-item">
+                <a href="" class="footer_nav-link">Новости</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_top_right">
+            <div class="footer_phones">
+              <p class="footer_phone">+7 (499) 136-17-18</p>
+              <p class="footer_phone">+7 (903) 467-98-51</p>
+            </div>
+            <button class="btn btn-call">Обратный звонок</button>
+            <div class="footer_email">info@monevac.ru</div>
+            <div class="footer_address">
+              Москва ул. Дербеневская, д. 1, стр. 1, подъезд 44, офис 6 (станция
+              метро "Павелецкая")
+            </div>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="footer_bottom_left">
+            © Моневак 2020 | Все права защищены
+          </div>
+          <div class="footer_bottom_right">
+            Разработка и продвижение сайта -
+            <a href="" class="footer_bottom_link">TODO</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.js"
+      type="text/javascript"
+    ></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script>
+      $(".phone_mask").mask("+7(999)999-99-99");
+    </script>
+  </body>
+</html>

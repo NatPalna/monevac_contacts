@@ -1,0 +1,35 @@
+body {
+  font-family: var(--font-text-main);
+  color: var(--color-text-main);
+}
+
+h1,
+h2,
+h3,
+button {
+  font-family: var(--font-title);
+}
+
+.container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.disabled {
+  color: #c9c9cf;
+  cursor: default;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--color-text-main);
+  -webkit-box-shadow: 0 0 0px 1000px var(--color-bg) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}

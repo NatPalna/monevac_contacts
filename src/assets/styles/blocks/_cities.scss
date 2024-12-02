@@ -1,0 +1,63 @@
+.cities {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.city_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.city_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 33px 22px 40px;
+  height: 310px;
+  flex: 0 1 calc(100% / 4 - 30px);
+  background-color: var(--color-bg);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.city_item:last-child {
+  flex-grow: 1;
+}
+
+.city_name {
+  margin-bottom: 15px;
+  font-family: var(--font-title);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: var(--color-text-main);
+}
+
+.city_phones {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 150%;
+}
+
+.city_address {
+  @include text_s;
+
+  color: var(--color-text-add);
+}
+
+.city_button {
+  @include text_s;
+
+  padding: 0;
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  font-family: var(--font-text-main);
+  color: var(--color-accent);
+}
+
+.city_mode {
+  @include text_s;
+}

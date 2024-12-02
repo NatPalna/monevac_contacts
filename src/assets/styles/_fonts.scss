@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "RoadRadio";
+  src: url("../fonts/RoadRadio-Bold.woff2") format("woff2"),
+    url("../fonts/RoadRadio-Bold.woff") format("woff"),
+    url("../fonts/RoadRadio-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-04D9;
+}
+
+@font-face {
+  font-family: "Graphik LC Web";
+  src: url("../fonts/Graphik LC Web Medium Regular.woff2") format("woff2"),
+    url("../fonts/Graphik LC Web Medium Regular.woff") format("woff"),
+    url("../fonts/Graphik LC Web Medium Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+
+@font-face {
+  font-family: "Akzidenz Grotesk Pro";
+  src: url("../fonts/AkzidenzGroteskPro Regular.woff2") format("woff2"),
+    url("../fonts/AkzidenzGroteskPro Regular.woff") format("woff"),
+    url("../fonts/AkzidenzGroteskPro Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: "Golos";
+  src: url("../fonts/Golos Text Regular.woff2") format("woff2"),
+    url("../fonts/Golos Text Regular.woff") format("woff"),
+    url("../fonts/Golos Text Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-F6D4;
+}
+
+@font-face {
+  font-family: "Golos";
+  src: url("../fonts/Golos Text Medium.woff2") format("woff2"),
+    url("../fonts/Golos Text Medium.woff") format("woff"),
+    url("../fonts/Golos Text Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-F6D4;
+}
